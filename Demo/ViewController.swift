@@ -202,7 +202,7 @@ class ViewController: UIViewController {
 	
 	func setupAmountDropDown() {
 		amountDropDown.anchorView = amountButton
-		
+		amountDropDown.height = 280
 		// By default, the dropdown will have its origin on the top left corner of its anchor view
 		// So it will come over the anchor view and hide it completely
 		// If you want to have the dropdown underneath your anchor view, you can do this:
